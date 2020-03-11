@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/navigation.css">
+    <link rel="stylesheet" href="./styles/trending.css">
+    <link rel="stylesheet" href="./styles/tweets.css">
+    <script src="https://kit.fontawesome.com/cd73c36f3c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent-container">
+        <!--Navigation column-->
+        <div id="navigation">
+            <div class="menu-container">
+                <nav>
+                    <ul>
+                        <li>
+                            <span class="nav-row">
+                                <span class="twitter-icon">
+                                    <i class="fab fa-twitter fa-2x"></i>
+                                </span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="nav-row">
+                                <span>
+                                    <i class="fas fa-home fa-lg home"></i>
+                                    <p class="home">Home</p>
+                                </span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="nav-row">
+                                <span>
+                                    <i class="fas fa-hashtag fa-lg" ></i>
+                                    <p>Explore</p>
+                                </span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="nav-row">
+                                <span>
+                                    <i class="far fa-bell fa-lg"></i>
+                                    <p>Notifications</p>
+                                </span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="nav-row">
+                                <span>
+                                    <i class="far fa-envelope fa-lg"></i>
+                                    <p>Messages</p>
+                                </span>
+                            </span> 
+                        </li>
+                        <li>
+                            <span class="nav-row">
+                                <span>
+                                    <i class="far fa-list-alt fa-lg"></i>
+                                    <p>Lists</p>
+                                </span>
+                            </span>   
+                        </li>
+                        <li>
+                            <span class="nav-row">
+                                <span>
+                                    <img src="./assets/images/profile-pic.jpg" alt="dp">
+                                    <p>Profile</p>
+                                </span>
+                            </span> 
+                        </li>
+                        <li>
+                            <span class="nav-row">
+                                <span>
+                                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                                    <p>More</p>
+                                </span>
+                            </span>
+                        </li>
+                    </ul>
+                </nav>
+                <button onclick="post()">Tweet</button>
+            </div>   
+        </div>
+
+        <!-- Tweets column -->
+        <div id="container-2">
+            <div class="top-box">
+                <div><span>Home</span></div>
+                <div><span><i class="far fa-star"></i></span></div>
+            </div>
+            
+            <div class="middle-box">
+                <div>
+                    <img src="./assets/images/profile-pic.jpg" alt="dp">
+                </div>
+                <div class="tweet-box">
+                    <form action="/"> 
+                        <input type="text" name="tweet" placeholder="What's happening?">
+                        <button type="submit">tweet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="bottom-box">
+                <div class="tweets">
+                    <div class="box1">
+                        <div class="profile-info">
+                            <img class="profile-pic" src="./assets/images/profile-pic.jpg" alt="dp">
+                            <p><a href="/"><span class="name">Abhishek Rai</span></a> <span class="tweet_name">@abhishek_rai</span></p>
+                        </div>
+                        <div><i class="fas fa-caret-down"></i></div>  
+                    </div>
+                    <div class="box2">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis impedit</p>
+                        <img src="./assets/images/roller-web-296_0.jpg" alt="">
+                    </div>
+                    <div class="box3">
+                        <ul>
+                            <li><i class="far fa-comment"></i><span>34</span></li>
+                            <li><i class="fas fa-retweet"></i><span>45</span></li>
+                            <li><i class="far fa-heart"></i><span>55</span></li>
+                            <li><i class="fas fa-upload"></i><span>65</span></li>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trends column -->
+        <div id="trending">
+            <div class="trend-search">
+                <div>
+                    <i class="fas fa-search"></i> 
+                </div>
+                <div>
+                    <form action="javascript:void(0)">
+                        <div>
+                            <input type="text" name="trends" placeholder="Search Twitter">
+                        </div>
+                        <div>
+                            <button><i class="far fa-times-circle fa-2x"></i></button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="trending-news">
+                <div class="latest-trends">
+                    <div>
+                        <p class="heading">Whats Trending</p>
+                    </div>
+                    <div class="feeds">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus soluta ad ea illo odio dolore error atque minima magni accusantium quas voluptatibus, delectus repellat quod, dolorum rerum non exercitationem.</p>
+                    </div >
+                    <div class="feeds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat repudiandae sequi dicta maiores eos quae. Qui, eum repellat! Vero itaque tempora iusto, doloribus voluptate animi facere dicta! Nulla, sed.</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./tweets.js"></script>
+</body>
+</html>

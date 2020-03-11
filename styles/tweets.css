@@ -1,0 +1,70 @@
+#container-2 .bottom-box .tweets {
+    padding : 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid gray;
+}
+#container-2 .bottom-box .tweets:hover {
+    background-color: whitesmoke;
+}
+
+#container-2 .bottom-box .profile-pic {
+    height : 50px;
+    width : 50px;
+    border-radius: 50%;
+}
+
+#container-2 .bottom-box .tweets .box1 {
+    display : flex;
+    justify-content: space-between;
+    padding : 5px 10px;
+}
+#container-2 .bottom-box .tweets .box1 .profile-info {
+    display: flex;
+}
+#container-2 .bottom-box .tweets .profile-info p {
+    margin-left : 20px;
+    margin-top : 0;
+}
+#container-2 .bottom-box .tweets .profile-info .tweet_name {
+    color : gray;
+}
+#container-2 .bottom-box .tweets .profile-info a {
+    color : #1da1f2;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+#container-2 .bottom-box .tweets .profile-info a:hover {
+    text-decoration: underline;
+}
+#container-2 .bottom-box .tweets .profile-info {
+    display: block;
+    float : right;
+}
+
+#container-2 .bottom-box .tweets .box2 {
+    padding : 0 10px;
+}
+#container-2 .bottom-box .tweets .box2 img {
+    width : 80%;
+    height : auto;
+}
+#container-2 .bottom-box .tweets .box3 {
+    padding : 0 10px;
+}
+
+#container-2 .bottom-box .tweets .box3 ul {
+    padding-left : 0px;
+    display : flex;
+    justify-content : space-around;
+    list-style-type: none;
+    color: #1da1f2;
+}
+
+#container-2 .bottom-box .tweets .box3 ul li {
+    padding: 8px;
+    border-radius: 20px;
+}
+#container-2 .bottom-box .tweets .box3 ul li:hover {
+    background-color: #1da1f240;
+}

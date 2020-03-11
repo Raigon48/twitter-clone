@@ -1,0 +1,5 @@
+function post() {
+    $(document).ready(() => {
+        $('.bottom-box').append('<div class="tweets"><div class="box1"><div class="profile-info"><img class="profile-pic" src="./assets/images/profile-pic.jpg" alt="dp"><p><a href="/"><span class="name">Abhishek Rai</span></a> <span class="tweet_name">@abhishek_rai</span></p></div><div><i class="fas fa-caret-down"></i></div></div><div class="box2"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis impedit</p><img src="./assets/images/roller-web-296_0.jpg" alt=""></div><div class="box3"><ul><li><i class="far fa-comment"></i><span>34</span></li><li><i class="fas fa-retweet"></i><span>45</span></li><li><i class="far fa-heart"></i><span>55</span></li><li><i class="fas fa-upload"></i><span>65</span></li></ul>  </div></div>');
+    });
+}

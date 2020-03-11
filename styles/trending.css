@@ -1,0 +1,60 @@
+#trending .trend-search {
+    display : flex;
+    margin : 10px auto;
+    background-color : whitesmoke;
+    height : 35px;
+    width : 80%;
+    border-radius : 25px;
+    padding-left : 10px;
+    padding-top : 2px;
+    padding-bottom : 2px;
+}
+
+#trending .trend-search div i {
+    color : grey;
+    padding-top : 8px;
+    padding-right : 10px;
+}
+#trending .trend-search div form {
+    display: flex;
+}
+#trending .trend-search div form input {
+    outline : none;
+    border : none;
+    width : 200px;
+    height : 30px;
+    background-color: whitesmoke;
+}
+#trending .trend-search div form input:focus {
+    background-color : white;
+}
+
+#trending .trend-search div form input:focus button{
+    visibility: visible;
+}
+#trending .trend-search div form button {
+    padding : 0;
+    margin : 0;
+    height: 30px;
+    width : 30px;
+    border : none;
+    visibility: hidden;
+}
+#trending .trend-search div form button i {
+    padding : 0;
+    margin : 0;
+}
+
+
+#trending .trending-news {
+    width : 80%;
+    margin : 15px auto;
+    background-color : whitesmoke;
+}
+#trending .trending-news div {
+    border : 1px solid gray;
+}
+
+#trending .trending-news div p {
+    padding : 10px;
+}
