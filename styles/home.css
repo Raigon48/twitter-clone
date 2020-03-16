@@ -13,6 +13,8 @@ body {
 
 #navigation {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     height: 530px;
     width : 20%;
 }
